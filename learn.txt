@@ -1,0 +1,22 @@
+Create a blank Repository first
+Make a folder --> cd into it
+
+
+echo "# learn" >> README.md [Create some file]
+git init
+git add README.md // git add . [To add all files]
+
+    --GLOBAL IS NOT NECESSARY
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+git commit -m "first commit"
+git branch -M main
+git remote add origin {http repo URL}
+
+git push -u origin main
+ |__ Will ask for Password
+    create/generate a SSH/Peronal Access Token and use it inplace of it.
+
+Use this blog for refernce:
+https://dev.to/shafia/support-for-password-authentication-was-removed-please-use-a-personal-access-token-instead-4nbk 
